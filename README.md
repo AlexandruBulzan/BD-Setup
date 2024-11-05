@@ -7,4 +7,5 @@ This document contains the setup for the BD-Setup project, including configurati
 	2.	Install Docker: Download and install it from  docker.com
 
 Ensure you have Git and Docker installed on your system:
+
 <img width="565" alt="1" src="https://github.com/user-attachments/assets/babe8e97-40de-470a-aa63-01bc646989cc">
