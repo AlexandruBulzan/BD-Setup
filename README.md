@@ -10,6 +10,7 @@ Ensure you have Git and Docker installed on your system:
 
 <img width="565" alt="1" src="https://github.com/user-attachments/assets/babe8e97-40de-470a-aa63-01bc646989cc">
 
+
 Make sure you install Docker Desktop for setting up and managing containers easier:
 
 <img width="1336" alt="Screenshot 2024-11-05 at 23 39 49" src="https://github.com/user-attachments/assets/016d3402-8da0-435f-8d67-be4429ffc6d4">
