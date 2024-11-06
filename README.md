@@ -39,7 +39,7 @@ To set up Git with your GitHub account, follow these steps to configure your use
    git config --global credential.helper manager
    ```
 
-3. **Authentication**
+3. **Authentication:**
    When you execute a Git command that requires authentication (such as `git push`), you will be prompted to enter your username and a Personal Access Token (PAT). You can generate a PAT quickly on GitHub if you don't already have one. Once entered, the credential manager will store these details for future Git commands.
 
 This setup streamlines your workflow by remembering your login details on your machine, making your interactions with remote repositories more efficient.
