@@ -25,7 +25,7 @@ Make sure you install Docker Desktop for setting up and managing containers easi
 
 To set up Git with your GitHub account, follow these steps to configure your user details and manage credentials:
 
-1. **Configure User Information**
+1. **Configure User Information:**
    Set your GitHub username and email associated with your GitHub account using the following commands:
    ```bash
    git config --global user.name "your_username"
@@ -33,7 +33,7 @@ To set up Git with your GitHub account, follow these steps to configure your use
    ```
    Replace `your_username` with your actual GitHub username, and `your_email@example.com` with the email you use on GitHub.
 
-2. **Credential Management**
+2. **Credential Management:**
    To store your credentials for future use, enable the credential manager with the command below:
    ```bash
    git config --global credential.helper manager
@@ -44,4 +44,3 @@ To set up Git with your GitHub account, follow these steps to configure your use
 
 This setup streamlines your workflow by remembering your login details on your machine, making your interactions with remote repositories more efficient.
 
----
