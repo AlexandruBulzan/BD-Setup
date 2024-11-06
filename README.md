@@ -21,13 +21,7 @@ Make sure you install Docker Desktop for setting up and managing containers easi
 
 <img width="1336" alt="Screenshot 2024-11-05 at 23 39 49" src="https://github.com/user-attachments/assets/016d3402-8da0-435f-8d67-be4429ffc6d4">
 
-# Step 2: Prerequisites
-
-Here's a rephrased version of the Git configuration instructions suitable for a `readme.md` file:
-
----
-
-### Setting Up Your Git Account
+# Step 2: Setting Up Your Git Account
 
 To set up Git with your GitHub account, follow these steps to configure your user details and manage credentials:
 
