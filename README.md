@@ -224,3 +224,24 @@ Execute these steps to get your Docker environment up and running:
 
 These instructions will help you efficiently manage your Docker environment within VSCode, streamlining development within a consistent setting.
 
+# Step 6: Run scripts
+
+In VS Code terminal run the next commands: 
+1. Running the generate-documentation.sh
+   
+   ```bash
+	chmod +x generate-documentation.sh
+       ./generate-documentation.sh
+   ```
+	<img width="1321" alt="Screenshot 2024-11-06 at 20 49 31" src="https://github.com/user-attachments/assets/4cf68dfa-d1ab-4bcb-8d61-a8beba89100c">
+
+2. Running the run-unit-tests-and-coverage.sh
+ 
+ ```bash
+chmod +x run-unit-tests-and-coverage.sh 
+./run-unit-tests-and-coverage.sh 
+```
+	<img width="1319" alt="Screenshot 2024-11-06 at 20 52 21" src="https://github.com/user-attachments/assets/0165812e-ae1b-42ff-bd0e-41d81e094043">
+
+ 
+
