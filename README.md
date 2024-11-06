@@ -46,7 +46,7 @@ This setup streamlines your workflow by remembering your login details on your m
 
 # Step 3: Start developing your project
 
-### 2. Creating a New Project Directory
+### 3.1 Creating a New Project Directory
 
 Follow these steps to create a new directory for your project and initialize it as a Git repository:
 
@@ -65,7 +65,7 @@ Follow these steps to create a new directory for your project and initialize it 
    ```
    This command creates a new `.git` directory in `BD-Setup`, which will track all changes made to the files in this directory and store the version history.
 
-<img width="566" alt="2" src="https://github.com/user-attachments/assets/657e13b3-34e0-4045-a5c8-1cc0db9e2da5">
+	<img width="566" alt="2" src="https://github.com/user-attachments/assets/657e13b3-34e0-4045-a5c8-1cc0db9e2da5">
 
 
 
