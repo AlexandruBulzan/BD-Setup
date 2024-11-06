@@ -189,6 +189,40 @@ Execute these steps to get your Docker environment up and running:
 
    <img width="1301" alt="Screenshot 2024-11-06 at 18 29 30" src="https://github.com/user-attachments/assets/6c204971-41b3-415e-bd3e-52183da122aa">
 
+   Here’s how you can adapt those instructions for a Mac user:
+
+---
+
+### In the Mac Terminal:
+
+1. **Check Docker Status**: Run the following command to see if Docker is running:
+
+   ```bash
+   docker info
+   ```
+
+   If Docker is running, this command will show detailed information about your Docker setup. If Docker isn’t running, open Docker Desktop from your Applications folder.
+
+2. **Check Built/Running Docker Containers**: 
+
+   To view active containers, run:
+
+   ```bash
+   docker ps
+   ```
+
+	<img width="1331" alt="Screenshot 2024-11-06 at 18 41 53" src="https://github.com/user-attachments/assets/fcf7c76d-bc96-4b63-832d-32b4e935fed9">
+
+
+3. **Start/Stop a Docker Container**:
+
+   To stop or start a container, use the container ID:
+
+   ```bash
+   docker stop <container_id>
+   docker start <container_id>
+   ```
+
 
 These instructions will help you efficiently manage your Docker environment within VSCode, streamlining development within a consistent setting.
 
