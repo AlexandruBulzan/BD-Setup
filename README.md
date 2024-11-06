@@ -164,4 +164,31 @@ Configure your development environment within a container:
    
 	<img width="663" alt="9" src="https://github.com/user-attachments/assets/fd460287-fb6e-4252-a418-3b19c08a0ca5">
 
+#Step 4: Construct and Launch Your Docker Environment
+
+Execute these steps to get your Docker environment up and running:
+
+4.1. **Initial Build:**
+   Begin by building your Docker image initially—this is a one-time setup unless updates are required later. Ensure you are in the project's root directory:
+   ```bash
+   cd path_to_your_project
+   ```
+
+4.2. **Open in VSCode:**
+   Open your project within Visual Studio Code by using the command:
+   ```bash
+   code .
+   ```
+   Shortly after, you'll see a prompt in the lower-right corner of VSCode asking if you'd like to "Reopen in Container." Click on this to proceed.
+
+4.3. **Automate Docker Setup:**
+   By selecting "Reopen in Container," VSCode will automatically build and launch the Docker container for you if it hasn't been built previously.
+
+4.4. **Rebuild Only if Necessary:**
+   Remember, you should only need to rebuild your Docker image if there have been modifications to the Dockerfile or associated configuration files.
+
+   <img width="1301" alt="Screenshot 2024-11-06 at 18 29 30" src="https://github.com/user-attachments/assets/6c204971-41b3-415e-bd3e-52183da122aa">
+
+
+These instructions will help you efficiently manage your Docker environment within VSCode, streamlining development within a consistent setting.
 
