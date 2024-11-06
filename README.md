@@ -164,7 +164,7 @@ Configure your development environment within a container:
    
 	<img width="663" alt="9" src="https://github.com/user-attachments/assets/fd460287-fb6e-4252-a418-3b19c08a0ca5">
 
-#Step 4: Construct and Launch Your Docker Environment
+# Step 4: Construct and Launch Your Docker Environment
 
 Execute these steps to get your Docker environment up and running:
 
