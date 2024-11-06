@@ -191,9 +191,7 @@ Execute these steps to get your Docker environment up and running:
 
    Here’s how you can adapt those instructions for a Mac user:
 
----
-
-### In the Mac Terminal:
+# Docker Operations Process
 
 1. **Check Docker Status**: Run the following command to see if Docker is running:
 
