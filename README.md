@@ -87,3 +87,65 @@ To prevent unnecessary files from being tracked by Git, you can create and confi
 
 	<img width="802" alt="3" src="https://github.com/user-attachments/assets/b44b3d0d-4453-4924-a074-f530ca12ba11">
 
+
+### 3.3. Link Local Repository to GitHub
+
+Establish a connection between your local repository and GitHub to push your changes:
+
+1. **Add Remote Repository**
+   In your terminal, link your local repository to a remote GitHub repository using the following commands:
+   ```bash
+   git remote add origin https://github.com/AlexandruBulzan/BD-Setup.git
+   ```
+
+2. **Push Changes**
+   Push your changes to the GitHub repository by setting the remote 'origin' and branch 'main' as default for future pushes:
+   ```bash
+   git push -u origin main
+   ```
+
+### 3.4. Add Project Setup Files
+
+Prepare your project structure with essential scripts and directories:
+
+1. **Create Scripts and Directories**
+   Generate shell scripts for documentation and testing, and create the necessary folders for your project organization:
+   ```bash
+   touch generate-documentation.sh run-unit-tests-and-coverage.sh
+   mkdir .devcontainer .vscode docs source src tests project_structure
+   ```
+
+2. **Commit and Push `generate-documentation.sh`**
+   Add, commit, and push the documentation script to your repository:
+   ```bash
+   git add generate-documentation.sh
+   git commit -m "Script to build project documentation"
+   git push origin main
+   ```
+
+3. **Commit and Push `run-unit-tests-and-coverage.sh`**
+   Add, commit, and push the unit test script which also generates an HTML coverage report:
+   ```bash
+   git add run-unit-tests-and-coverage.sh
+   git commit -m "Script to execute unit tests and generate HTML coverage report"
+   git push origin main
+   ```
+
+### 3.5. Set Up Development Container
+
+Configure your development environment within a container:
+
+1. **Navigate and Create Configuration Files**
+   Change to the `.devcontainer` directory and create the necessary Docker configuration files:
+   ```bash
+   cd .devcontainer
+   touch Dockerfile devcontainer.json
+   ```
+
+2. **Edit Dockerfile**
+   Open the Dockerfile to edit and configure your container environment:
+   ```bash
+   nano Dockerfile
+   ```
+
+
