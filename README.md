@@ -44,3 +44,28 @@ To set up Git with your GitHub account, follow these steps to configure your use
 
 This setup streamlines your workflow by remembering your login details on your machine, making your interactions with remote repositories more efficient.
 
+# Step 3: Start developing your project
+
+### 2. Creating a New Project Directory
+
+Follow these steps to create a new directory for your project and initialize it as a Git repository:
+
+1. **Create a New Folder**
+   Open your terminal and navigate to the folder that you want. Then create a folder named `BD-Setup` and navigate into it using the following commands:
+   ```bash
+   cd Desktop
+   mkdir BD-Setup
+   cd BD-Setup
+   ```
+
+2. **Initialize a Git Repository**
+   Once you are inside your new directory, initialize it as a Git repository with the following command:
+   ```bash
+   git init
+   ```
+   This command creates a new `.git` directory in `BD-Setup`, which will track all changes made to the files in this directory and store the version history.
+
+<img width="566" alt="2" src="https://github.com/user-attachments/assets/657e13b3-34e0-4045-a5c8-1cc0db9e2da5">
+
+
+
