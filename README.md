@@ -67,5 +67,23 @@ Follow these steps to create a new directory for your project and initialize it 
 
 	<img width="566" alt="2" src="https://github.com/user-attachments/assets/657e13b3-34e0-4045-a5c8-1cc0db9e2da5">
 
+### 3.2 Adding a `.gitignore` File
 
+To prevent unnecessary files from being tracked by Git, you can create and configure a `.gitignore` file in your project directory:
+
+1. **Create and Configure `.gitignore`**
+   Open your terminal in your project directory and execute the following commands to create a `.gitignore` file and add `.DS_Store` (a common unwanted file in macOS) to it:
+   ```bash
+   echo ".DS_Store" >> .gitignore
+   ```
+
+2. **Add and Commit `.gitignore`**
+   Add the `.gitignore` file to your staging area and commit it to your repository with these commands:
+   ```bash
+   git add .gitignore
+   git commit -m "Added .gitignore to exclude unnecessary files"
+   ```
+   This step ensures that the files listed in `.gitignore` are ignored by Git, keeping your repository clean of any unnecessary files.
+
+	<img width="802" alt="3" src="https://github.com/user-attachments/assets/b44b3d0d-4453-4924-a074-f530ca12ba11">
 
