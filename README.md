@@ -189,9 +189,9 @@ Execute these steps to get your Docker environment up and running:
 
    <img width="1301" alt="Screenshot 2024-11-06 at 18 29 30" src="https://github.com/user-attachments/assets/6c204971-41b3-415e-bd3e-52183da122aa">
 
-   Here’s how you can adapt those instructions for a Mac user:
 
-# Docker Operations Process
+
+# Step 5: Docker Operations Process
 
 1. **Check Docker Status**: Run the following command to see if Docker is running:
 
